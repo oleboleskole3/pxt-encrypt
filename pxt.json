@@ -1,7 +1,7 @@
 {
-    "name": "gatorlight",
+    "name": "micro-encrypt",
     "version": "0.0.3",
-    "description": "SparkFun gator:light Temperature Sensor",
+    "description": "Microbit encryption",
     "license": "MIT",
     "dependencies": {
         "core": "*"
