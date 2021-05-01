@@ -8,6 +8,9 @@
 //% color="#AA278D" weight=100
 namespace MicroEncrypt {
     //% block="encrypt %text with key %key"
+    //% weight=100
+    //% text.defl="Hello!"
+    //% key.defl=1234
     export function encrypt(text : string, key : number) : string {
         let fail : string = ''
         const out : string = text.split('').map(char => {
@@ -24,6 +27,8 @@ namespace MicroEncrypt {
     }
 
     //% block="decrypt %text with key %key"
+    //% text.defl="a!((+:"
+    //% key.defl=1234
     export function decrypt(text : string, key : number) : string {
         let fail : string = ''
         const out : string = text.split('').map(char => {
